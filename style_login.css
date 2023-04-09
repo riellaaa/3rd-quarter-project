@@ -1,0 +1,181 @@
+body{
+	background-color: #E8DBC5;
+	margin: 0;
+	border: none;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+	background-color: #8D6B94;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 25px;
+}
+
+.logo img {
+    width: 200px;
+    height: 100px;
+    float: right;
+    padding-top: 10px;
+}
+
+.container{
+	position: absolute;
+    left: 12%;
+    top: 30%;
+    width: 75%;
+    height: 500px;
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #8D6B94;
+}
+
+.introduction{
+	float: left;
+    width: 50%;
+}
+
+.introduction h2{
+	padding-top: 30px;
+	text-align: center;	
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+}
+
+.introduction p{
+	padding-top: 20px;
+	text-align: center;	
+	font-size: 15px;
+	font-weight: 2;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #E8DBC5;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.form-group {
+    margin-bottom: 40px;
+    padding-right: 30px;
+}
+  
+label {
+    font-size: 15px;
+    font-weight: 2;
+    color:#E8DBC5;
+    margin-left: 180px;
+}
+  
+input[type="text"], input[type="password"] {
+    width: 40%;
+    padding: 20px;
+    border: none;
+    border-radius: 15px;
+    box-sizing: border-box;
+    transition: background-color 0.3s;
+    margin-left: 45px;
+    text-align: center;
+    margin-top: 10px;
+}
+  
+input[type="text"]:focus, input[type="password"]:focus {
+    background-color: #FFF3B0;
+}
+  
+button[onclick="Error()"] {
+    background-color: #8D6B94;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 45px;
+    width: 200px;
+
+}
+  
+button[onclick="Error()"]:hover {
+    background-color: #FFF3B0;
+    color: #8D6B94;
+}
+
+#forgotPassword {
+    margin-top: 10px;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+a{
+    color: pink;
+}
+
+#error{
+	text-align: center;
+	padding: 30px;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+
+footer {
+    background-color: #8D6B94;
+    margin-top: 700px;
+    padding: 10px 170px;
+    font-size: 80%;
+    color: #FFF3B0;
+    overflow: auto;
+    height: 130px;
+}
+  
+.contact, .socmed {
+    float: right;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.instagram{
+    position: absolute;
+    right: 0px;
+    float: right;
+    width: 55px;
+    margin-right: 25px;
+    margin-top: 40px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("images/socmed.png") -21px -13px;
+}
+.facebook{
+    position: absolute;
+    right: 80px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 40px;
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("images/socmed.png") -211px -296px;
+}
+.instagram:hover{
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("images/socmed.png") -313px -13px;
+}
+
+.facebook:hover{
+    width: 55px;
+    height: 55px;
+    border-radius: 25px;
+    background: url("images/socmed.png") -503px -296px;
+}
